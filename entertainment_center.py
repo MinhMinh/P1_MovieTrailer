@@ -18,9 +18,18 @@ avatar = media.Movie(
 interstellar = media.Movie(
     "Interstellar",
     "A man and his crew take a mission to save human life.",
-    "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster"\
+    ".jpg",
     "https://www.youtube.com/watch?v=0vxOhd4qlnA"
 )
 
-moives = [toy_story, avatar, interstellar]
-fresh_tomatoes.open_movies_page(moives)
+home = media.Movie(
+    "Home",
+    "",
+    "https://upload.wikimedia.org/wikipedia/en/8/85/Home_%282015_film%29_"\
+    "poster.jpg",
+    "https://www.youtube.com/watch?v=iLGDJkhYnVc"
+)
+
+movies = [toy_story, avatar, interstellar, home]
+fresh_tomatoes.open_movies_page(movies)
