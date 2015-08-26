@@ -1,6 +1,11 @@
 import fresh_tomatoes
 import media
 
+"""
+This file acts as a starting point for the project.
+"""
+
+# Make an instance of Movie
 toy_story = media.Movie(
     "Toy Story",
     "A story of a boy and his toys that come to life",
@@ -31,5 +36,7 @@ home = media.Movie(
     "https://www.youtube.com/watch?v=iLGDJkhYnVc"
 )
 
+# Make a list of movie and then pass it to fresh_tomatoes file to generate a
+# html page.
 movies = [toy_story, avatar, interstellar, home]
 fresh_tomatoes.open_movies_page(movies)
